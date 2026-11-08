@@ -1,0 +1,1362 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4900,
+    "sha256": "1ea1c04fd97a85de4b863a0806158c2538e6ea6702f6f2e6aa927f90b7cf615b"
+  },
+  {
+    "path": "animations.json",
+    "bytes": 1777,
+    "sha256": "d389b10dcf4f45c4837128d4a9fd36ace927ad8093c2b8602f41720f3667bc63"
+  },
+  {
+    "path": "audio/bgm/01_title.wav",
+    "bytes": 10584044,
+    "sha256": "cfe15fba4f2214e4d74d0ae366baf74513b60b6557d8f0933c60e0cbf94ad1d0"
+  },
+  {
+    "path": "audio/bgm/02_kamiyama.wav",
+    "bytes": 8467244,
+    "sha256": "5d2855350191bfae43a2857a24e3ddcd3c6d8d93e065da159e306fd1b2084091"
+  },
+  {
+    "path": "audio/bgm/03_shibuya.wav",
+    "bytes": 7969172,
+    "sha256": "42444be2614662132b7cb922e5be48e0dc9ecd750a365d9edfc754b883ed56cd"
+  },
+  {
+    "path": "audio/bgm/04_alley.wav",
+    "bytes": 9031724,
+    "sha256": "28a8df1dc018ed876c47c1c5f93b301d340dd6efefdbf0290ced611192cc1186"
+  },
+  {
+    "path": "audio/bgm/05_good_caught.wav",
+    "bytes": 7056044,
+    "sha256": "75d11852394d73e8beff506b2f056099173bc1fb22941b63437d5319006570ac"
+  },
+  {
+    "path": "audio/bgm/06_bad_escaped.wav",
+    "bytes": 10584044,
+    "sha256": "71c6b436d673fefb09b5c9c4e30571b54e8d2f604560290b5e1d14985bf01822"
+  },
+  {
+    "path": "audio/sfx/01_run_tile.wav",
+    "bytes": 141164,
+    "sha256": "4a41397276fe87cb1cc4173c6528ec9be6255bd53550151a2f4bdce4f438c7f7"
+  },
+  {
+    "path": "audio/sfx/02_run_asphalt.wav",
+    "bytes": 141164,
+    "sha256": "499be4a79e9ce891bf4665c2e7894f0f2abbe68c7e1acd6c5786c563fbae4964"
+  },
+  {
+    "path": "audio/sfx/03_run_puddles.wav",
+    "bytes": 141164,
+    "sha256": "b095187a706b2d525b4f03809fa20ad6d7af4ef7b0c5cd3f1a4e53d2524c3980"
+  },
+  {
+    "path": "audio/sfx/04_jump_land.wav",
+    "bytes": 67958,
+    "sha256": "4ff3eaca702805ad9b622c165598a6730368cb71de8c091b0e06fb0e42b10315"
+  },
+  {
+    "path": "audio/sfx/05_slide.wav",
+    "bytes": 54728,
+    "sha256": "66d15a6c84984f959d2ae51230d47d7ab7f73ba547014d0307289541e4a5e15f"
+  },
+  {
+    "path": "audio/sfx/06_metal_boost.wav",
+    "bytes": 75014,
+    "sha256": "9e0211a55e55b1bc8a403f10db42b082f5df5163e398ad3ee3c85443a2000587"
+  },
+  {
+    "path": "audio/sfx/07_fence_climb.wav",
+    "bytes": 112058,
+    "sha256": "ef9faf7db2230cdd5b958c419bc0be09f593009bcd281d305f0f5e7e047e8177"
+  },
+  {
+    "path": "audio/sfx/08_horn_traffic.wav",
+    "bytes": 255824,
+    "sha256": "dd3a4068496b4c6f47d4ed442b503cc24b73f50e41fc573040c608a7b0b0596c"
+  },
+  {
+    "path": "audio/sfx/09_cat_dart.wav",
+    "bytes": 98828,
+    "sha256": "b3d7238027db9f8effe36eb20b2b4cc01beba58d1b8933bbb687a8a0359ad5fb"
+  },
+  {
+    "path": "audio/sfx/10_trip.wav",
+    "bytes": 61784,
+    "sha256": "b1b8adf213803449d408578658282b7abfdc59c91675eea3fd5d9e9b00cc6fe6"
+  },
+  {
+    "path": "audio/sfx/11_mafuyu_approach.wav",
+    "bytes": 335204,
+    "sha256": "a70abe39d7fb8c76fa9f1e101f5b8746889ca9b86dab9149a18c54c98a05ce6a"
+  },
+  {
+    "path": "audio/sfx/12_light_cut.wav",
+    "bytes": 127052,
+    "sha256": "94d902b3474a4066d2e23a17c5add53347029f943804968ab007599dc1308b88"
+  },
+  {
+    "path": "characters/mafuyu/hold_wrist/00.png",
+    "bytes": 40116,
+    "sha256": "f468931612e2fc225e680f12beb0f728e05b4b6b69bfb37d3173feb19fa4968c"
+  },
+  {
+    "path": "characters/mafuyu/hold_wrist/01.png",
+    "bytes": 40998,
+    "sha256": "3712e943361026892b5db89281afafe03a30e9c31052fee56fcf04d51d4626cc"
+  },
+  {
+    "path": "characters/mafuyu/hold_wrist/02.png",
+    "bytes": 40952,
+    "sha256": "e4d68237f20e6f17188b694e17f6dd1781345083894dd3ac97922e7c39c524a9"
+  },
+  {
+    "path": "characters/mafuyu/hold_wrist/strip.png",
+    "bytes": 120458,
+    "sha256": "291b0e7985384c37f45417507a339559ccd06376261bcbfdc1bc311808f0244d"
+  },
+  {
+    "path": "characters/mafuyu/jog/00.png",
+    "bytes": 46035,
+    "sha256": "d93016742caab25ca4e680ccc80d189c242b05fa087925b0fc8fd97db83ac6d4"
+  },
+  {
+    "path": "characters/mafuyu/jog/01.png",
+    "bytes": 46565,
+    "sha256": "0985946cf37ff7fc67529860ebfe40b91c140d1ba146af6f90ae332fae6696de"
+  },
+  {
+    "path": "characters/mafuyu/jog/02.png",
+    "bytes": 44864,
+    "sha256": "bfca28cbeb958077c1859c7ab23a5b4e5aaa44e47aaf6676864ccc48f1fc13a0"
+  },
+  {
+    "path": "characters/mafuyu/jog/03.png",
+    "bytes": 48594,
+    "sha256": "f64e668861ad100036a839641b64bbb2b9b68675348caf23dc77975b83acee6e"
+  },
+  {
+    "path": "characters/mafuyu/jog/04.png",
+    "bytes": 48397,
+    "sha256": "790a21bab261fae0bf2eec198d8cf8ba345f083ab8906ac0864ef48ce7933c72"
+  },
+  {
+    "path": "characters/mafuyu/jog/05.png",
+    "bytes": 48216,
+    "sha256": "2ef5aa904080cc212bc1aad3692e30361c83d4534ecbe67af98bdad048cc58ca"
+  },
+  {
+    "path": "characters/mafuyu/jog/06.png",
+    "bytes": 43873,
+    "sha256": "06636388c1facd21523012462eb78ba9b090855dc9cf652a46c946cadcd9a92a"
+  },
+  {
+    "path": "characters/mafuyu/jog/07.png",
+    "bytes": 49341,
+    "sha256": "a5edb304617347af6a34a4e2896cefa85040063e65db89796d6ac25eccbe0012"
+  },
+  {
+    "path": "characters/mafuyu/jog/strip.png",
+    "bytes": 367992,
+    "sha256": "232254f4be64a922db09bb45f257d29ac2c2c0d766c61eb2da3c1ef2590ab7a7"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/00.png",
+    "bytes": 47055,
+    "sha256": "a85d93dcd680b95e1235d6401dce756513fe5622d7f2596feb431412570c4c15"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/01.png",
+    "bytes": 47937,
+    "sha256": "f73d815284cabcea2ed742827daf3ca15749efb0f85bc3260f0c28abe7201f3b"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/02.png",
+    "bytes": 44727,
+    "sha256": "7e6a56ae9364967b967919c5ab85c51a155244d39f9e05f956d34bd5db52ad69"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/03.png",
+    "bytes": 49949,
+    "sha256": "ebe43f32aac859afaa5d214bc9660d651d0e7fc764c1dbfdfc5e6871754da533"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/04.png",
+    "bytes": 48225,
+    "sha256": "f4c3cfe5d7d6f10634d56d4132fce9b924c5fbbc0378843e5fd08305efbdd6b7"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/05.png",
+    "bytes": 49613,
+    "sha256": "dbbbde9b127bec7f724c0cd571c0617351377f42de8a03fec5cde5569b572222"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/06.png",
+    "bytes": 45332,
+    "sha256": "91f7e2ab21d07172e54d857039c693449c7197e4537a127855c1aedd8673bb79"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/07.png",
+    "bytes": 50996,
+    "sha256": "cd7e1937ba083ad9bcdc7867468404a6f676b8921e04e94e8abd4e1f52a26349"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear1/strip.png",
+    "bytes": 375245,
+    "sha256": "cf9cf81e2a1d8cc0fb7d4ebd7e969eedd87699f0222db214c13737a4df68b966"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/00.png",
+    "bytes": 46043,
+    "sha256": "9a75cd018a394f6601abd9eab89ef1c39af64006850eaac18c778f896046d1c6"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/01.png",
+    "bytes": 46803,
+    "sha256": "74eec967a730faf78bd157715669bb9224edf298e4be6957ea1a89eeaadf9912"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/02.png",
+    "bytes": 43642,
+    "sha256": "7394850a7ce35cb5d1c3ff3ebf1d54403b2f05e22fb314b251850afd6b35b5c8"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/03.png",
+    "bytes": 48753,
+    "sha256": "53167ad5b71cefdcc37286038efbf2836507e5712683b038266263d8093dfb55"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/04.png",
+    "bytes": 47209,
+    "sha256": "b48b3009ef859c6f4c1b5feb0fed3a6b15ef8d150c46d32422bd1259e5945a20"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/05.png",
+    "bytes": 48548,
+    "sha256": "116bee645fe2dbac36298cd9a86adb1799e4f12fd5ad504fd5ef12ac9b877aff"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/06.png",
+    "bytes": 44248,
+    "sha256": "093e86ce5e856a2f6913a306b44ba25513fd6fd0726c25eb03b785e8b7eb0839"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/07.png",
+    "bytes": 49891,
+    "sha256": "4856091abff156c0e8f91270c149c346b14af1c4bbd9407df8925cde5fb315e1"
+  },
+  {
+    "path": "characters/mafuyu/jog_fear2/strip.png",
+    "bytes": 365988,
+    "sha256": "a54ae4c3e2fb33f2c481f27b5d6b1b48aadcaeb33afd15758cab904e209fc496"
+  },
+  {
+    "path": "characters/mafuyu/portrait.png",
+    "bytes": 69792,
+    "sha256": "e16666dcb684fedb36c3899347335e2ec8af27474a2d4863773e745ecee390af"
+  },
+  {
+    "path": "characters/mafuyu/reach/00.png",
+    "bytes": 39945,
+    "sha256": "45c0f28d218d9ba6ae98f6b1e9a105b61454733c47458eac51024d8d915013c5"
+  },
+  {
+    "path": "characters/mafuyu/reach/01.png",
+    "bytes": 41518,
+    "sha256": "17d4a4dca8db001b7b8463235a7f114cbddcd0e8007fdd11c60427c8b5d34a3c"
+  },
+  {
+    "path": "characters/mafuyu/reach/02.png",
+    "bytes": 40227,
+    "sha256": "61bdf39aeba3cf127695ea9f28367506c91313ae4388ff3eb6a02601034953a6"
+  },
+  {
+    "path": "characters/mafuyu/reach/03.png",
+    "bytes": 40748,
+    "sha256": "073ae6b3f5cdecddeaa469aeb1de3f15969043db34532cedbc89644b5a670ef0"
+  },
+  {
+    "path": "characters/mafuyu/reach/strip.png",
+    "bytes": 159982,
+    "sha256": "c42a335f6e86cc1511cf894c71c347303866579bfacf59881b6a3e663390990b"
+  },
+  {
+    "path": "characters/mafuyu/stare/00.png",
+    "bytes": 42194,
+    "sha256": "a91ae3801de0929a54a408ce5418bd4672f2815c43eccdd6459c590941306ddb"
+  },
+  {
+    "path": "characters/mafuyu/stare/01.png",
+    "bytes": 41573,
+    "sha256": "dc5ef0bd8fb7d80be11efae7d1ede359aff3296afdc0f7b89feb3af6742aa4a8"
+  },
+  {
+    "path": "characters/mafuyu/stare/strip.png",
+    "bytes": 72747,
+    "sha256": "c872af0db7f277162254216db99052ceeab47677aea1339a9c5b77299b7923df"
+  },
+  {
+    "path": "characters/mizuki/boost/00.png",
+    "bytes": 60613,
+    "sha256": "b10cd4426a2b5ea191ee9d20d0f45690f04381311c3c095d07872e26daa1d66e"
+  },
+  {
+    "path": "characters/mizuki/boost/01.png",
+    "bytes": 66517,
+    "sha256": "995398957dc981369ac2b660b5d467ac72e9017803bb33caca2b404084114cbe"
+  },
+  {
+    "path": "characters/mizuki/boost/02.png",
+    "bytes": 57578,
+    "sha256": "5e470f448f9b23e74ff9359316fabd9df079a6080740fcc3c1c2197f9e1fbbf0"
+  },
+  {
+    "path": "characters/mizuki/boost/03.png",
+    "bytes": 64611,
+    "sha256": "ec5087f628e5844bee3f4bea005d8bc6b4f06767e5d5f8fc8c043be2a3ce5553"
+  },
+  {
+    "path": "characters/mizuki/boost/strip.png",
+    "bytes": 250267,
+    "sha256": "90c609fb6b2158cea70a0e81924afdc157c3c006ff1e33ba2ce774ac69694d53"
+  },
+  {
+    "path": "characters/mizuki/caught/00.png",
+    "bytes": 53411,
+    "sha256": "11e935343eb233c1c52d8b4fcfa211d750f86b4d79feb51372b17d2d450b13e2"
+  },
+  {
+    "path": "characters/mizuki/caught/01.png",
+    "bytes": 53969,
+    "sha256": "a27fd04d9e32c160aa1aa2fe23180412905e88b6be9b4c86c7fd9be7adb14c20"
+  },
+  {
+    "path": "characters/mizuki/caught/02.png",
+    "bytes": 54296,
+    "sha256": "12a307925c77cb7d30729d18e68181ae5ee6de2bec6f939b308830f91686f9ec"
+  },
+  {
+    "path": "characters/mizuki/caught/strip.png",
+    "bytes": 160182,
+    "sha256": "2c5134355b7f57a2e14d3f3ba39dbe580b03dd2f50d5b0c79fdfccd00c87b8af"
+  },
+  {
+    "path": "characters/mizuki/climb/00.png",
+    "bytes": 49475,
+    "sha256": "6849534e61480a4d051a8f6c62fbe3098c337c46f5da1cab40ce589be0234e0d"
+  },
+  {
+    "path": "characters/mizuki/climb/01.png",
+    "bytes": 50350,
+    "sha256": "be1ccc6c0d9c781ff320043998acbcbd498cb93f21b342307c0560bd50282e2e"
+  },
+  {
+    "path": "characters/mizuki/climb/02.png",
+    "bytes": 53391,
+    "sha256": "e3bd221916fbc4c09017b9aa6aafaba5abfc980c335d4b260436b7575c5ffd89"
+  },
+  {
+    "path": "characters/mizuki/climb/03.png",
+    "bytes": 49405,
+    "sha256": "71db2a5a05c6eae37d4fc7e4e05cf304262df00308c8143b2c83c4cab706dfc4"
+  },
+  {
+    "path": "characters/mizuki/climb/04.png",
+    "bytes": 50289,
+    "sha256": "103f5f84033aa7cfe8d5486ce2383902c1b582fd3970e8807d27e422b8479066"
+  },
+  {
+    "path": "characters/mizuki/climb/05.png",
+    "bytes": 53253,
+    "sha256": "309b9d04d2c8f528260e3a80c07ec49613062cd4462d2a7410a10b22335137af"
+  },
+  {
+    "path": "characters/mizuki/climb/strip.png",
+    "bytes": 303079,
+    "sha256": "aee7bf324684579b1025e1f06e104756f9ec0ad59aad4884be5b59bde5b78aac"
+  },
+  {
+    "path": "characters/mizuki/jump/00.png",
+    "bytes": 60613,
+    "sha256": "b10cd4426a2b5ea191ee9d20d0f45690f04381311c3c095d07872e26daa1d66e"
+  },
+  {
+    "path": "characters/mizuki/jump/01.png",
+    "bytes": 66571,
+    "sha256": "29384ca3b34b27fcad6994565dff6c7bbb2674ca05c72e4d3c09cf1f375c2851"
+  },
+  {
+    "path": "characters/mizuki/jump/02.png",
+    "bytes": 57591,
+    "sha256": "93450579f4ffd957faf2717cefeed6a8fd5d6b1bf96747f2eb2392be84c62144"
+  },
+  {
+    "path": "characters/mizuki/jump/03.png",
+    "bytes": 57479,
+    "sha256": "4bb82910d0b74e15cb6fe68bb72bae1adaa61ae3e8072764bf5da7e17d8fb479"
+  },
+  {
+    "path": "characters/mizuki/jump/04.png",
+    "bytes": 64523,
+    "sha256": "bc2faf29a805ba907da55bc74cebab67fbf9d9dbec504064a51f73eb53806c8d"
+  },
+  {
+    "path": "characters/mizuki/jump/05.png",
+    "bytes": 58090,
+    "sha256": "3cec87d050392f13cdc0be721cc21aa9105a3ed148d64944c79e527b538c286b"
+  },
+  {
+    "path": "characters/mizuki/jump/strip.png",
+    "bytes": 366805,
+    "sha256": "134e4d0ad0410af158262229dbc94719c03208dcd7fe2c053c1731aa3c344d2f"
+  },
+  {
+    "path": "characters/mizuki/portrait.png",
+    "bytes": 73093,
+    "sha256": "4cd93e1b689ef0d442fd6e82c79f21f81ccd3781d555b89418f3bf8f1ba62be8"
+  },
+  {
+    "path": "characters/mizuki/run/00.png",
+    "bytes": 54405,
+    "sha256": "f75081172fd2f9618734faf1d7a07d1223992480c61b62767db18985737778e5"
+  },
+  {
+    "path": "characters/mizuki/run/01.png",
+    "bytes": 55702,
+    "sha256": "be9dfa10bb37dc9475508b61eebdf0ce06dd13f908e022aa49a512738ff49724"
+  },
+  {
+    "path": "characters/mizuki/run/02.png",
+    "bytes": 50245,
+    "sha256": "c28ce1c04fe0ad593e7d72c880cd8fb9dfa5063c9916c10718be5ab3f78378db"
+  },
+  {
+    "path": "characters/mizuki/run/03.png",
+    "bytes": 51893,
+    "sha256": "9364e6c33842d9c897f32896e61c58da87cd3a3133b2854bcc102ff9b084c6e5"
+  },
+  {
+    "path": "characters/mizuki/run/04.png",
+    "bytes": 53736,
+    "sha256": "68fb0b8a22b40c573074cebe6b1a66301ef43964533354c8cfe6db1f60daac9e"
+  },
+  {
+    "path": "characters/mizuki/run/05.png",
+    "bytes": 55307,
+    "sha256": "1be3f4fcc0456bc501c6237fd48070e3da92136f02532723ef186e4a45ceaab7"
+  },
+  {
+    "path": "characters/mizuki/run/06.png",
+    "bytes": 51583,
+    "sha256": "3174330934f52e08f2da1a05d0c62f8a2b9b09390b65b4d76ecab93d2688c065"
+  },
+  {
+    "path": "characters/mizuki/run/07.png",
+    "bytes": 55787,
+    "sha256": "6e077a78f2340f5b75a21ae94004f40ec7fa13bd0aac914cfcb4731d4c4a4e1b"
+  },
+  {
+    "path": "characters/mizuki/run/strip.png",
+    "bytes": 423713,
+    "sha256": "7abaa29bbc3b44b9fecfa31075289dcf089a1c9ad6a036922e80b03613c72e08"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/00.png",
+    "bytes": 54476,
+    "sha256": "2d80229f07d6ee5fa85d2c149f6fdfcb3491a18434a267baa9a36b29430016bd"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/01.png",
+    "bytes": 55705,
+    "sha256": "a243254bca5d513e19a9f9a6a9e029b1c46b926c96619d35208f098b16fef03d"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/02.png",
+    "bytes": 50312,
+    "sha256": "8e0928172a34449e4735e740ea29ee6b7cafbb25a5cba569f06f2f9deff4273b"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/03.png",
+    "bytes": 51784,
+    "sha256": "e4af8f7290338e5616951dc475fd29a73b1f8c4e1e09624aa8036ee1a1f9f600"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/04.png",
+    "bytes": 53804,
+    "sha256": "6adf7a714859193ef6531361c1130da71212d47b91ef93ff9e169958e835159e"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/05.png",
+    "bytes": 55332,
+    "sha256": "0faf43283834dccd16a93e82b3faa41d35d18b3c78c667e10f81bacd4472a5f3"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/06.png",
+    "bytes": 51511,
+    "sha256": "6bbe0b1f6fa2bbc055e3ff2daacc28045efdcd2cfb73d9bbcbc28be0a3f678d2"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/07.png",
+    "bytes": 55777,
+    "sha256": "0c4bb3fb5b5a72c8bca1f965d9ab253ca41261becadfab1e5f2e0c5b2ea3ea24"
+  },
+  {
+    "path": "characters/mizuki/run_fear1/strip.png",
+    "bytes": 423471,
+    "sha256": "f5f385c3282087effaab50fe913bef42da6912e412a344c85a21d4642898a22c"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/00.png",
+    "bytes": 54379,
+    "sha256": "b7d7b1b3031782ea36565378c3d77a95899f0a0c12ef8ba86905c3c3ca9f9573"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/01.png",
+    "bytes": 55590,
+    "sha256": "a8081aac13e0ead88994693ef5f72ed65f86718cd95452a3b3325fc9cd94beef"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/02.png",
+    "bytes": 50248,
+    "sha256": "74e5ab3492eaa80ded1c462f9499f17c25c7be7df40ffb10f8d6f322e29337e8"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/03.png",
+    "bytes": 51813,
+    "sha256": "ce432518629e34c2af2c4e52797946e7b7fb990d7786f581a8c07f7a06294206"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/04.png",
+    "bytes": 53769,
+    "sha256": "a6372f8cc26ed8c770cfffb7e37bc9f4877d58f59e8cecbe5a325e2e1dbed77a"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/05.png",
+    "bytes": 55223,
+    "sha256": "4aa2412646a8d60fcef5b7a2f4d1798efd52e353c1b34ce5291b7dfe009bde5b"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/06.png",
+    "bytes": 51498,
+    "sha256": "45079b6059bbf558ce956a04861347c836d1d0895458a6d5062ccf41ed944d98"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/07.png",
+    "bytes": 55703,
+    "sha256": "c86e1304a50a220f0da6d3258107cdd76991ddb2ce3e62d558209680c53a7cb2"
+  },
+  {
+    "path": "characters/mizuki/run_fear2/strip.png",
+    "bytes": 423136,
+    "sha256": "6bb10bf96c229c69305e1264f5a322ea0773607432ef81296a7af161de9a5c45"
+  },
+  {
+    "path": "characters/mizuki/slide/00.png",
+    "bytes": 50233,
+    "sha256": "8fbbc15bba699a50ad5937ff76c082e94b4571c42530bb5c43117a2e9f6f0e61"
+  },
+  {
+    "path": "characters/mizuki/slide/01.png",
+    "bytes": 55008,
+    "sha256": "9e5ad08ea9754e0ab860a3c5781abf7aac0e821cae5c33041461d5428741150a"
+  },
+  {
+    "path": "characters/mizuki/slide/02.png",
+    "bytes": 55082,
+    "sha256": "3117623da8615ad29ecc9906ebc77d5cc56214580429245e9d77c7af7017885f"
+  },
+  {
+    "path": "characters/mizuki/slide/03.png",
+    "bytes": 55201,
+    "sha256": "549921ab3af4aca0b1c72b25fbb40bc892bf742f754a03caa64c6f7b869fc92d"
+  },
+  {
+    "path": "characters/mizuki/slide/strip.png",
+    "bytes": 212880,
+    "sha256": "6247cbeb14156c9f867ba87e819a81650ea6c0ffb4b1f5bdbe29685b6ba50ea4"
+  },
+  {
+    "path": "characters/mizuki/trip/00.png",
+    "bytes": 54075,
+    "sha256": "37fc1d8290af4a6cbea08bc33758fc43cb69235f045e65e4ecfefb569bd355ff"
+  },
+  {
+    "path": "characters/mizuki/trip/01.png",
+    "bytes": 58231,
+    "sha256": "9978ec001c14eee922727fd55f5fc40f455d024dc9d924a796d52219e0c9527e"
+  },
+  {
+    "path": "characters/mizuki/trip/02.png",
+    "bytes": 58784,
+    "sha256": "fd1eb30d3935db0bff504b8cbeaae1f5c5090451dd84fd1aa9a721fdb3aa1151"
+  },
+  {
+    "path": "characters/mizuki/trip/strip.png",
+    "bytes": 170424,
+    "sha256": "e6e3295a88e6f0729b9cd6598aa8137ccf56b3710a90e51f09170e422660ca30"
+  },
+  {
+    "path": "maps/alley/composite.png",
+    "bytes": 3411514,
+    "sha256": "28694f8c101c3f2a1cb793799c88abcd9470e4734731ae3a7f674b6662b33a89"
+  },
+  {
+    "path": "maps/alley/far.png",
+    "bytes": 778877,
+    "sha256": "0ea331d4acf3d5336a994e812601402cee16852acfb2c493b945ab3f04a6da53"
+  },
+  {
+    "path": "maps/alley/mid.png",
+    "bytes": 2279575,
+    "sha256": "6d63ebbd566ce64941faa147f6da81c0cec68ba9097befc65153203a0c6d2f27"
+  },
+  {
+    "path": "maps/alley/near.png",
+    "bytes": 846054,
+    "sha256": "2eb85b44feca6dd41dae8e0c7cbd3d0391449f569a9fdbd24635b3af7ba47801"
+  },
+  {
+    "path": "maps/kamiyama/composite.png",
+    "bytes": 2474018,
+    "sha256": "fdc49dcb07373722286ab28260827891c1a12c3ce554f5e4569771335d648514"
+  },
+  {
+    "path": "maps/kamiyama/far.png",
+    "bytes": 2649893,
+    "sha256": "757e82cac9e0fa621f570630abc86dc184775b7153869db7b4c90aa128bd9b7c"
+  },
+  {
+    "path": "maps/kamiyama/intro_classroom.png",
+    "bytes": 1813027,
+    "sha256": "90a76435abcf5f06e8ec4395d677c11681660454192d9175e449e7cc6d28148e"
+  },
+  {
+    "path": "maps/kamiyama/intro_school_gate.png",
+    "bytes": 2547127,
+    "sha256": "a989a0b2fd1f6883cf61f848bff2d6bfc71583660f59665ee13ac6c349d887ea"
+  },
+  {
+    "path": "maps/kamiyama/mid.png",
+    "bytes": 1097309,
+    "sha256": "edd9c8217789bf9c3eaedabf13e2169071d5948fc6afeecf030a328ff4e1d489"
+  },
+  {
+    "path": "maps/kamiyama/near.png",
+    "bytes": 1012481,
+    "sha256": "fc5dc4722a1b77fb1407ad5ebb4054075f58f78062e018d8e380457d23ce7938"
+  },
+  {
+    "path": "maps/shibuya/composite.png",
+    "bytes": 4524872,
+    "sha256": "788079e2b49d13bc5050a5e045d1505586efd0926d68c9c27a4e4a2406fa914a"
+  },
+  {
+    "path": "maps/shibuya/far.png",
+    "bytes": 845332,
+    "sha256": "e1cfadfb1391e769e04ad6b6ff5928659013c04642a10b0c07b4e50a8b70074e"
+  },
+  {
+    "path": "maps/shibuya/mid.png",
+    "bytes": 3191374,
+    "sha256": "2f915f520c81169ddb8e80721e209020b3f6a6755e3eae71f2de21cb82b850e4"
+  },
+  {
+    "path": "maps/shibuya/near.png",
+    "bytes": 1335776,
+    "sha256": "e88e93038b7ca402ef930d37ee9749771017bf0e5554c7c04c07caf2851db9a4"
+  },
+  {
+    "path": "obstacles/alley/ac_platform.png",
+    "bytes": 172115,
+    "sha256": "fdcabb543628934e8d127d99bfdc916483c50fe03171c1e7620995f981bd3d19"
+  },
+  {
+    "path": "obstacles/alley/cabinet_platform.png",
+    "bytes": 149864,
+    "sha256": "b81591d36eca35aac4cda661b439915ef4a9c8168897cd9246fd7332e6683ac5"
+  },
+  {
+    "path": "obstacles/alley/crate_platform.png",
+    "bytes": 167087,
+    "sha256": "577c213788caa27d43e873b458a1b8dfb995d54e25be76cc2f344eb368d50a5e"
+  },
+  {
+    "path": "obstacles/alley/crate_row.png",
+    "bytes": 109994,
+    "sha256": "a94162a135eecf76c9358a11234c700fd5005e04b6dacc657689a68e503b1447"
+  },
+  {
+    "path": "obstacles/alley/junk_wall_a.png",
+    "bytes": 201488,
+    "sha256": "0e7cd4f738a534e09e626e975067d7eab88a077b41f92adbda2af3e56d05ce1c"
+  },
+  {
+    "path": "obstacles/alley/junk_wall_b.png",
+    "bytes": 164104,
+    "sha256": "15a2044024ff68c3aff4cd93e91ab7656f3320c9b719fcf829e367a2eb215862"
+  },
+  {
+    "path": "obstacles/alley/junk_wall_gap.png",
+    "bytes": 187593,
+    "sha256": "7f735c38f08fbc94a32c7cab21617c9d3072e33aae6e2a1f559139a9c0da4a22"
+  },
+  {
+    "path": "obstacles/alley/pallet_row.png",
+    "bytes": 137969,
+    "sha256": "d23b21d0b31f4bfd91a39caa53342ff2b2a62dbda601c37cd77360b3f5efb8a8"
+  },
+  {
+    "path": "obstacles/alley/trash_bag_pile.png",
+    "bytes": 115887,
+    "sha256": "9a96082379db7dc878924819b9bdc5af03cdd1f514dba73598d97fa0326e6923"
+  },
+  {
+    "path": "obstacles/kamiyama/cardboard_wall.png",
+    "bytes": 120393,
+    "sha256": "1837c9adc11ab3151ad88b99f3946c3d6de6030edfdfdb5b88c9a8504f92aa55"
+  },
+  {
+    "path": "obstacles/kamiyama/cleaning_barrier.png",
+    "bytes": 125784,
+    "sha256": "f6fbbd942e1bd6604ba9e11390d4ff695b1257221c626a9c0549fd4a6b8a68fb"
+  },
+  {
+    "path": "obstacles/kamiyama/desk_row.png",
+    "bytes": 99194,
+    "sha256": "0ff54680557bb1927bd369792f24b584d943c834bb402d759d63ebedefd1d85e"
+  },
+  {
+    "path": "obstacles/kamiyama/gym_mats.png",
+    "bytes": 127555,
+    "sha256": "2c522920b8da55fa2b5a9d5b08f5e480359163995c4fac3244235af36ddec672"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/00.png",
+    "bytes": 38626,
+    "sha256": "9c4052d1490acee87b707abff98dedfb60b1cb32bc186ce781e7de1299b2244e"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/01.png",
+    "bytes": 34471,
+    "sha256": "96fa76025a34bcbd0e2da5b9aaf91d81faed6f533db1baeb612b95f790aa0f0f"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/02.png",
+    "bytes": 32639,
+    "sha256": "d67c9aff7303afa915d328a215e9936c680c52a2eaa3016c2916b7072f696268"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/03.png",
+    "bytes": 38782,
+    "sha256": "49fb7daed36c70f7fb685d008e25cfcd8b8bc7e130da1abaa96f7c58ab888422"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/04.png",
+    "bytes": 33703,
+    "sha256": "2fe77121b3dddbe5697ff2fc88ecdabe4c262909e81a3fe0a1fc3efbc50141c5"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/05.png",
+    "bytes": 33104,
+    "sha256": "663bbc9fb317bc76dff930a9ccf4256dc7e87a491389e5fa69b0d08f15a9370f"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/left/strip.png",
+    "bytes": 204504,
+    "sha256": "7c39593203c36b0470cbf3912a44d61b126a31befb77954868dc8b4b5ee66f67"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/00.png",
+    "bytes": 38571,
+    "sha256": "35a2b7ec3f90dd43e5e917e15e785c8c0cb8bdfcaf1801ae170d1847ec7be9ab"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/01.png",
+    "bytes": 34403,
+    "sha256": "4a0b6271ba5087786eed7f3605dd2c7d49e36b62ef2608564510c4a8a1992436"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/02.png",
+    "bytes": 32426,
+    "sha256": "61f120bece9eb9195a3bee7bb015d04ed608aa4284fcad035c6dc043933e9114"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/03.png",
+    "bytes": 38764,
+    "sha256": "92126f95ddbc080ac0bde53286d804c2ba9534db0c172b2044d557764407ffd5"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/04.png",
+    "bytes": 33531,
+    "sha256": "d7f5f647daa8279b53681de00149638187e98400c2f4b877aa934c9923e4e851"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/05.png",
+    "bytes": 32995,
+    "sha256": "7cecfec035d58e5c7a9aed1eb0ebf61a20ecfdd6381d58e49eb9ad12e3418a89"
+  },
+  {
+    "path": "obstacles/kamiyama/student_boy/right/strip.png",
+    "bytes": 204743,
+    "sha256": "367f6ebe0a38a818dfc5948ec73b3adbce87bbb8489a1c8f8d6cf5b3b08e4924"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/00.png",
+    "bytes": 38263,
+    "sha256": "d432793a9186c517731b83225b08b5d70f535b59290a1cd256d5916d5f279fd8"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/01.png",
+    "bytes": 35118,
+    "sha256": "c2708c35854431e5eec050ed4aab70c290e2de3bb70a1cd77e0401e4add96a2a"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/02.png",
+    "bytes": 33225,
+    "sha256": "95fb107b2cdf80d52bd19714c253233174c01f989d147fcbbe0b13c87d9f2ce6"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/03.png",
+    "bytes": 38193,
+    "sha256": "7e2b5168a567bc3fd03e4537baed5dd4bf83798760f2e354ae5e7035c5f0d7e8"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/04.png",
+    "bytes": 35135,
+    "sha256": "de227e29615d66a0d84c3b270147d45f9533abf2a6644fdc23dbdc6adba6468b"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/05.png",
+    "bytes": 33448,
+    "sha256": "335afe595ec1359d666bcc073141d91ba234ca8b11c485cf161fd225534b5f4c"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/left/strip.png",
+    "bytes": 207200,
+    "sha256": "35c06be34969c8418765c104f575ffcd8e64b43a8d3fa3a5163c7be04a74958f"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/00.png",
+    "bytes": 38453,
+    "sha256": "6d6459136326392b71eb4544de4d4630bfd86068ddb07099b191c4fbe3a1c0f4"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/01.png",
+    "bytes": 35047,
+    "sha256": "2de4800e28cfa3c7cf16d44413316ac780d167910e925a8721f2e5cd5e0e4ad9"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/02.png",
+    "bytes": 33198,
+    "sha256": "a870e6cfc07095ae9c8b9c1171606c9608ba9efa01c5b1a4223ad9510c97b4a9"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/03.png",
+    "bytes": 38166,
+    "sha256": "561da6178fcd4b373d3586939990dcce02ac210f93fe0d24b591374980943310"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/04.png",
+    "bytes": 35227,
+    "sha256": "5afdc0dc42b15c64abfdaec186efcf658d971601926fce20b265647806c7199c"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/05.png",
+    "bytes": 33461,
+    "sha256": "1aad5198dba7fbbdb0f28eb607d15563a23658d2295efe576491765749f42a5c"
+  },
+  {
+    "path": "obstacles/kamiyama/student_girl/right/strip.png",
+    "bytes": 207408,
+    "sha256": "8228abf5834b740c4b1ba70bf9cf20f41aa62b2787064992fccc8c8f34717963"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/00.png",
+    "bytes": 58678,
+    "sha256": "54fd31ca9ef2e348807d7393c81e2066ed71c73008ead8145be4e8f39a4431e4"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/01.png",
+    "bytes": 56210,
+    "sha256": "4b82209ae2866a1b17ba536329f1b70be060c5064ad599e7cc5126cb3c24cfbc"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/02.png",
+    "bytes": 53124,
+    "sha256": "49e5a01c93d834a12768215a24330bf2a5e5fbf9aa75b3987efecee96623c5fe"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/03.png",
+    "bytes": 59013,
+    "sha256": "efc98152c19a6b0e159c2aa4c5ec95e20abd2caf8f4ca1e598c16f60ac9d8e60"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/04.png",
+    "bytes": 55352,
+    "sha256": "1a71629a4a1b7fa8dcabfdde193cc8f84b5b04fa33e06b331276942f8ca5da54"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/05.png",
+    "bytes": 52742,
+    "sha256": "4e7f430eaf9cd0ed177b8fbc211b87fd8a6800e6e5bf7bc4c06f58c228d8d85c"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/left/strip.png",
+    "bytes": 327469,
+    "sha256": "c15b1600d8eeef958da9f1292ba9f37c6c32fa14457c51a183ca4c074864f278"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/00.png",
+    "bytes": 58567,
+    "sha256": "a96c57f9399bcf8d7d05dc3dc86331712ab4ba447e7bce82e3584bb1f3fed0f2"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/01.png",
+    "bytes": 56057,
+    "sha256": "2f29c2279b079095f35a753123a1392d957ccc9fa1b917721d0e8fd5c3513e94"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/02.png",
+    "bytes": 53310,
+    "sha256": "7607df492eb7f0baab2a5f62e86da7076a6b038d074f2725bf3357b9d59f34f2"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/03.png",
+    "bytes": 59014,
+    "sha256": "d316c588e5271fc245a50202848db49583360d2430672006a181e13e36c89f8b"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/04.png",
+    "bytes": 55236,
+    "sha256": "a0f98462d79018c347501a360974e21a2b5cfdf0f24cbc872abb9284e83685c1"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/05.png",
+    "bytes": 52688,
+    "sha256": "431e203c894f9257b212b3e23a5a95b34ec9d4bae9ad2ead5a42bf516709768c"
+  },
+  {
+    "path": "obstacles/kamiyama/student_pair/right/strip.png",
+    "bytes": 327660,
+    "sha256": "7a8820b1503c04bc1547595466b5e58d2e39f82b7e3a2b036f262b05815e9aea"
+  },
+  {
+    "path": "obstacles/shibuya/barrier_row.png",
+    "bytes": 106939,
+    "sha256": "c27852f8a5467c7737fe14e2d9516287c831781346b46d10dced548920c9ae6a"
+  },
+  {
+    "path": "obstacles/shibuya/car_compact/00.png",
+    "bytes": 79966,
+    "sha256": "24f0310bd049f72dcf72254e2117199f6fdbba187d4924e5961b5a4a6e381695"
+  },
+  {
+    "path": "obstacles/shibuya/car_compact/01.png",
+    "bytes": 79876,
+    "sha256": "adbb31bf973d8ca157807c9f13a81b1b5decec24697ebf3e1e9497e8c2100bb6"
+  },
+  {
+    "path": "obstacles/shibuya/car_compact/02.png",
+    "bytes": 80194,
+    "sha256": "32894cb8841e80eb37f90cc229c50e8d98b68db3c45c242dbd6e6e956830303e"
+  },
+  {
+    "path": "obstacles/shibuya/car_compact/03.png",
+    "bytes": 79913,
+    "sha256": "a6931184535e812f9e79ae36a9a11928d68f7c96c5fe38eadc18056bc2974de5"
+  },
+  {
+    "path": "obstacles/shibuya/car_compact/strip.png",
+    "bytes": 103944,
+    "sha256": "509a6e0859168059709ae0fc03c472024460a00a92ec48d72cafddf4a270265b"
+  },
+  {
+    "path": "obstacles/shibuya/car_kei/00.png",
+    "bytes": 76004,
+    "sha256": "b29d39f8db62c819efab14acaf7eae77b4a48034d7d69ee09010cc090e6ccba6"
+  },
+  {
+    "path": "obstacles/shibuya/car_kei/01.png",
+    "bytes": 75921,
+    "sha256": "9a199779322727424962e7cd519cf80aa4e5561fd2f0547879506d52627bb0ad"
+  },
+  {
+    "path": "obstacles/shibuya/car_kei/02.png",
+    "bytes": 76003,
+    "sha256": "e94b203e7020ff58ad4f929137cad3a2e981e89a7d134e7b8f1c3ba0fc45ac05"
+  },
+  {
+    "path": "obstacles/shibuya/car_kei/03.png",
+    "bytes": 75940,
+    "sha256": "2ca4c150cb89f7d6c2d7d5594867fa3913d68835865c0d09fe693a10e409a764"
+  },
+  {
+    "path": "obstacles/shibuya/car_kei/strip.png",
+    "bytes": 99523,
+    "sha256": "ff9e8a89680bbd8db07842f1ab3acf960fe3a975e07573bc443575225226fc9d"
+  },
+  {
+    "path": "obstacles/shibuya/car_taxi/00.png",
+    "bytes": 75108,
+    "sha256": "360bd55f8e8a7ac8b657743f1b3445fcfbcc1251f745495c28a98c1a9a0d40c6"
+  },
+  {
+    "path": "obstacles/shibuya/car_taxi/01.png",
+    "bytes": 75064,
+    "sha256": "06aedfd9fc2270c380a9b85f16fa64151eee4f95db2e7aa7d320cd6b8a74d534"
+  },
+  {
+    "path": "obstacles/shibuya/car_taxi/02.png",
+    "bytes": 75143,
+    "sha256": "96137b9a7198836feb31ec2f968c6305e3320bbc1e5ff3d283c995681c6d33a1"
+  },
+  {
+    "path": "obstacles/shibuya/car_taxi/03.png",
+    "bytes": 75102,
+    "sha256": "beeeb32fc5d8fd32bf6ae8c28d060111d4cc0d4bbc5275eaf5d37739ad3dbdeb"
+  },
+  {
+    "path": "obstacles/shibuya/car_taxi/strip.png",
+    "bytes": 98792,
+    "sha256": "37ca4f3b327004dce3341e911073055c306d429f38607635559ee3d4580982d9"
+  },
+  {
+    "path": "obstacles/shibuya/car_van/00.png",
+    "bytes": 79591,
+    "sha256": "52ac6483a43bbd1b980a39431c38c87af60032b850d564956b3d6af56e223ded"
+  },
+  {
+    "path": "obstacles/shibuya/car_van/01.png",
+    "bytes": 79551,
+    "sha256": "d3c27527134f3dd4ce9e629ed96655ebc55e0b28e983649b3f8d8155c79466bc"
+  },
+  {
+    "path": "obstacles/shibuya/car_van/02.png",
+    "bytes": 79603,
+    "sha256": "f592a282bc4c878754af9663557771c81d835c3d0d553e6b1259c79ad9f5b8ad"
+  },
+  {
+    "path": "obstacles/shibuya/car_van/03.png",
+    "bytes": 79566,
+    "sha256": "5cc5c7010bf4b0bab9ebf5d37660f662ea81f8ef442bdd55452544baef605341"
+  },
+  {
+    "path": "obstacles/shibuya/car_van/strip.png",
+    "bytes": 102905,
+    "sha256": "5740ea6fcad248164b9d674e9619e4a4eb9757cc2f7c7c4361371150355a903b"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/00.png",
+    "bytes": 35287,
+    "sha256": "a60fc6be6bc87dff92d9e572bf6d6ab6c23c5a38cf594e37453d680683904512"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/01.png",
+    "bytes": 36318,
+    "sha256": "107eb80a1e43018b134d7100ae847a878a90876f5ec860a336df1f5b6ce6cadc"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/02.png",
+    "bytes": 36519,
+    "sha256": "0bef11bc35d5b257d8cb651a90dd33efc364935fdd18b1e8a3b9e3bf66e56a42"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/03.png",
+    "bytes": 35025,
+    "sha256": "c95adbdd25aa319379445277a6095af698e93aa316cf3d7714509f8c58741785"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/04.png",
+    "bytes": 35596,
+    "sha256": "ee837e168c5077fb0db6ddaa68ce27117a9fe64fe0e1b5ec8f20fa132ba055bb"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/05.png",
+    "bytes": 35651,
+    "sha256": "a9bd8b07edb1cbb18d0ac23a392c4fb23c1eb924e0ca05f1b55d94aa8d9325b2"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/back/strip.png",
+    "bytes": 198020,
+    "sha256": "a188842ca8a6d9dddcc337ab2d6e5ca01574f8b0b7ce919fe8cc829c73c2a348"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/00.png",
+    "bytes": 37621,
+    "sha256": "c8422ee16304d6bf6f5faed328d3414ad59a29bf30c4f45ee2dd946d5aa9d6b3"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/01.png",
+    "bytes": 38673,
+    "sha256": "8617d24e123a5288cdd26783a9e4e63c377cbf4ea65d01e668d1f1ba14c3df23"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/02.png",
+    "bytes": 38638,
+    "sha256": "09f7bbb347b6125f7e6bd295fd76200b2aefaa235f0961830870ea6f0bcc9ad7"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/03.png",
+    "bytes": 37907,
+    "sha256": "14540d3fcf0f8c5114d1f0d1eaa3eb01aa5f6b1d24c5a403d96e2ee27060a2a2"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/04.png",
+    "bytes": 39255,
+    "sha256": "1b5853af8fd8d111e91da3e51e491741f8cc8fd584243a29ab7e942a71554b35"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/05.png",
+    "bytes": 39270,
+    "sha256": "cece21944939a35379a6ee0af22c7da5ddfd6dfacf1ad984b257681ef5c42435"
+  },
+  {
+    "path": "obstacles/shibuya/walker_office/front/strip.png",
+    "bytes": 216597,
+    "sha256": "25033e91991f7d9061a3a8ec55cc51708238ced54989aa839872859260ec4236"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/00.png",
+    "bytes": 31209,
+    "sha256": "6f13550b08810fd541f9a4115953da86796dddc0ec982ec36c248daaec341668"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/01.png",
+    "bytes": 33115,
+    "sha256": "d18070ccc21e88726177da0aa12da99b95de4a2078bbdfa98d2fb72ee51e062c"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/02.png",
+    "bytes": 33091,
+    "sha256": "6333b2ecb8008ad206835fd5ec2dda9109b01571df8549a73d6e95aee016620c"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/03.png",
+    "bytes": 30955,
+    "sha256": "d6a7fdc4c39da0dc36d60c26e047f987bcbe9a2594b642dbacb286c5f894dec4"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/04.png",
+    "bytes": 32429,
+    "sha256": "4d49eea1ae7c81b3f1eb464b0c559cee58b93d0db9ec40780ec4a2eb7976f65b"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/05.png",
+    "bytes": 32398,
+    "sha256": "b3a6c94c372653d64f2fca4b5518718143db042bf91d7f92b393c0e2f5205f06"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/back/strip.png",
+    "bytes": 178954,
+    "sha256": "3f16a10963fac457b446770f931d37e5ca85fc311922950c11b546e6e35f3679"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/00.png",
+    "bytes": 32946,
+    "sha256": "429f67223fa3465bd0b17ee054070a22f8706f42b09fe4cce395fddfc2b39872"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/01.png",
+    "bytes": 34284,
+    "sha256": "75917286ebe9afaa63cc9efff5f917fed46f1b875de5e81383691847b998b980"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/02.png",
+    "bytes": 34365,
+    "sha256": "715c38feb242bb63398463cf92a2799f8d6b9667d9ff7999f7b49070783dc36f"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/03.png",
+    "bytes": 32445,
+    "sha256": "4c75579a0682e85bef098ff41386622b0cb5ffc79fe9d2d57c7165fc755c135c"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/04.png",
+    "bytes": 33605,
+    "sha256": "fb8909e849b9df85b68209f003aacc31dcadb3d05cd9818d0d757253794d2c77"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/05.png",
+    "bytes": 33716,
+    "sha256": "ce58f4b8b3937dd49882244d80962bf363c8bf11c190cdf41122569eb696ca31"
+  },
+  {
+    "path": "obstacles/shibuya/walker_student/front/strip.png",
+    "bytes": 188686,
+    "sha256": "9047308288bf606788d5df10c9b067daca59c19cf75f61cfc7ee5bd3283fc141"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/00.png",
+    "bytes": 44660,
+    "sha256": "13c41fb9b72c150a3fab59a033874eebfe5222a977216d136ef006fbfbfb9a9a"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/01.png",
+    "bytes": 45752,
+    "sha256": "8f7d23a346dc984ea18e0446a38e4ac6f96facbee46da70bb0e6f83517c155d4"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/02.png",
+    "bytes": 45840,
+    "sha256": "91f2e0385059af46fc70f6b98659cd54d464c6f2f7b3522655ec795ee238e07c"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/03.png",
+    "bytes": 45044,
+    "sha256": "c4159df6d5eda88169841084e05761dc598d36e8deb87db9ef3771deea01f6b5"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/04.png",
+    "bytes": 45824,
+    "sha256": "754848c1f936611d786177f3547b9404076abb5178e04b74504fcf4721e295da"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/05.png",
+    "bytes": 45835,
+    "sha256": "8d674f2db3c66721cff9f9af93b314d21cb0a5b2e9ea6c436ae389cb4fc570da"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/back/strip.png",
+    "bytes": 251220,
+    "sha256": "a4b9e4266b5c1ed96108e54dce814698c07c266358535b14e1b77882cd1177c0"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/00.png",
+    "bytes": 49065,
+    "sha256": "bdfed937b2d423d898e61abcdba8d6c2b218b89152c63de45ccc23a2bf9b6d01"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/01.png",
+    "bytes": 49571,
+    "sha256": "44eeaab1efcb23a4e4cfa01de7988848a117851a3f04400cb0027914d0b63852"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/02.png",
+    "bytes": 49561,
+    "sha256": "079e90c513a6a0f0c12f0182ce88b96b63051444bfbb4ff2250ef91133e92f9e"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/03.png",
+    "bytes": 48852,
+    "sha256": "09064779e3a8bd7dd9c30c64c91540dfcf1f69d3df58f0b2d7e7f8618a1f05d3"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/04.png",
+    "bytes": 49922,
+    "sha256": "a2f9779b91bce58f981b1199f1af864e1c9d7248cf6dc3e7ef64dba448182841"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/05.png",
+    "bytes": 49871,
+    "sha256": "6da0a85feb326eff3234cb92b0f1a566fae9aafd3a6df3e526608ce8345f3184"
+  },
+  {
+    "path": "obstacles/shibuya/walker_umbrella/front/strip.png",
+    "bytes": 278975,
+    "sha256": "0bf8b82c31787c8c949a40395341317698e7b0174094eb301cf3bc4a0c560d79"
+  },
+  {
+    "path": "obstacles/来源清单.md",
+    "bytes": 9509,
+    "sha256": "d6ff6d91f150dbe3e981142b430dbb5da559c0cb875ca3aced0481321390f12e"
+  },
+  {
+    "path": "scenes/bad_escaped_01.png",
+    "bytes": 3209247,
+    "sha256": "1c9180cfdc33fc90710f4bf711631e7cdb8493b9d624d2a49887abc9058fd628"
+  },
+  {
+    "path": "scenes/bad_escaped_02.png",
+    "bytes": 2759259,
+    "sha256": "15a3593dced39719c069ff085c348992ba982076c89494a2094fa2471c5a53ba"
+  },
+  {
+    "path": "scenes/bad_escaped_03.png",
+    "bytes": 1800518,
+    "sha256": "e4b9f731e1d3bdd40f27fd3e28efc783c25e595747ca29d937c0e17b9eff7223"
+  },
+  {
+    "path": "scenes/good_caught.png",
+    "bytes": 2651609,
+    "sha256": "650d04d666fff56ea7c7e9e9fc47b4e234e3518c04edadf8dda69ce4358bfe16"
+  },
+  {
+    "path": "scenes/good_caught_chibi.png",
+    "bytes": 1005684,
+    "sha256": "34d3c2a28111c1fe75f087e19d758c0ff4daa775028bc346632b2078f5946155"
+  },
+  {
+    "path": "scenes/title.png",
+    "bytes": 1623188,
+    "sha256": "844782b28aec2704c79931fed8fba4279107b89d5f1e29cdef9f3552302acd05"
+  },
+  {
+    "path": "ui/danger_vignette.png",
+    "bytes": 145050,
+    "sha256": "df384b585da344792c043b0ec8d143e1c033e99494f4427ffa02b66f71d2793d"
+  },
+  {
+    "path": "ui/distance_bar.png",
+    "bytes": 2560,
+    "sha256": "8f69c9dee659dde309d29607d59a9566c0afa9b6d4116fd2412e6d6b46a3b34e"
+  },
+  {
+    "path": "ui/distance_fill.png",
+    "bytes": 482,
+    "sha256": "3743c896ae5b478c25d8fcb49b2740fa440c4de48c3956595c5b5ad469a79c30"
+  },
+  {
+    "path": "ui/key_A.png",
+    "bytes": 1798,
+    "sha256": "6772caeb955f8d86a2ceacab1aea89a9a5e1fc4376a098fcad57b452f53a4cda"
+  },
+  {
+    "path": "ui/key_D.png",
+    "bytes": 1720,
+    "sha256": "1c8f76ebd0634e48fcb95fc669ccb8e6cee109f256e1777d582cfb3c9a14eb07"
+  },
+  {
+    "path": "ui/key_S.png",
+    "bytes": 1998,
+    "sha256": "c663b46b7cb7115404cc549c3921bf4d2b7e2578bcbbf7dbae0a89a733d9a848"
+  },
+  {
+    "path": "ui/key_W.png",
+    "bytes": 2225,
+    "sha256": "4ea595b7d2ebb66a5225e483685cfd99dec0264e711da7874bf5675243d0f84a"
+  },
+  {
+    "path": "ui/level_cards/alley.png",
+    "bytes": 480100,
+    "sha256": "d2de706a8ffe5de5f1498788ad280d1c0b2fc672ec1652a563685dc57ada3d0b"
+  },
+  {
+    "path": "ui/level_cards/kamiyama.png",
+    "bytes": 433913,
+    "sha256": "28d9abfb9fa4e567c2477d8d520e33b051cba7c334966051f7168a4ed9ad68d8"
+  },
+  {
+    "path": "ui/level_cards/shibuya.png",
+    "bytes": 650122,
+    "sha256": "7610724fc438e2f965dacb39425dcbb23439c92c42e0e9d14c25143010bf09d2"
+  },
+  {
+    "path": "ui/pause_button.png",
+    "bytes": 858,
+    "sha256": "991cd1d7638b72ce42f13931c907d953b5ecfde266cb681945940be2765978e4"
+  },
+  {
+    "path": "ui/pause_panel.png",
+    "bytes": 3139,
+    "sha256": "39bdf972d218d13ddc7ee8f3720692bebf49f7557901853c5286a5a6e93f5b1f"
+  },
+  {
+    "path": "obstacles/alley/tunnel_crates.png",
+    "bytes": 1570014,
+    "sha256": "42ad9f1c43b45e3515e2a7ca8607c37eda867a0266b5095b0d4c254d1a6a344f"
+  }
+]

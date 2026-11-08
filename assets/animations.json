@@ -1,0 +1,137 @@
+{
+  "mizuki/run": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/jump": {
+    "frames": 6,
+    "fps": 12,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/slide": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/climb": {
+    "frames": 6,
+    "fps": 10,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/boost": {
+    "frames": 4,
+    "fps": 12,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/trip": {
+    "frames": 3,
+    "fps": 12,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/caught": {
+    "frames": 3,
+    "fps": 8,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/jog": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/reach": {
+    "frames": 4,
+    "fps": 10,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/stare": {
+    "frames": 2,
+    "fps": 2,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/hold_wrist": {
+    "frames": 3,
+    "fps": 8,
+    "loop": false,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/run_fear1": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mizuki/run_fear2": {
+    "frames": 8,
+    "fps": 14,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/jog_fear1": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  },
+  "mafuyu/jog_fear2": {
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "pivot": [
+      128,
+      232
+    ]
+  }
+}
