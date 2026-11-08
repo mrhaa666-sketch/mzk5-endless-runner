@@ -171,8 +171,7 @@ addEventListener('blur', () => {
 });
 canvas.addEventListener('pointerdown', e => {
   unlockAudio();
-  const r = canvas.getBoundingClientRect();
-  game.click = { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height };
+  game.click = toCanvasXY(e);
   pressed.ANY = true;
 });
 // 浏览器要等玩家第一次按键或点击后才允许出声。之后每次按键都检查一下：音乐该响却没响，就再播一次

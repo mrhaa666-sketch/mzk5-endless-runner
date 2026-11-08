@@ -1,7 +1,7 @@
 // 《荆棘之路 逃跑计划》触屏操作（手机 / 平板）
 // 只在触屏设备上启用（game.js 里的 TOUCH）；电脑上这个文件什么都不做。
-// 右手：「跳」（按住跳得更高）和「冲刺」；屏幕右半边点空白处也算跳。
-// 左手：▲ ▼ 换道；也可以在左半边上下滑动换道。
+// 右手：「跳」在右下（按住跳得更高），「冲刺」在它正上方；屏幕右半边点空白处也算跳。
+// 左手：▲ ▼ 上下排开换道；也可以在左半边上下滑动换道。
 // 这四个按钮贴着手机屏幕边缘：宽屏手机上落在游戏画面两侧的黑边里，不挡画面（尤其不挡身后的真冬）。
 // 右上角：游戏中是暂停，剧情里是跳过。结局画面有「再来一次」「回到标题」两个按钮。
 (() => {
@@ -18,29 +18,26 @@
   function press(k) { if (!keys[k]) pressed[k] = true; keys[k] = true; held[k]++; }
   function release(k) { held[k] = Math.max(0, held[k] - 1); if (!held[k]) keys[k] = false; }
   const inBox = (pt, r) => pt.x >= r.x && pt.x <= r.x + r.w && pt.y >= r.y && pt.y <= r.y + r.h;
-  function toCanvas(e) {
-    const r = canvas.getBoundingClientRect();
-    return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height };
-  }
+  const toCanvas = e => toCanvasXY(e);   // index.html 里定义，竖屏旋转时也能对上
 
   // ---------------------------------------------------------------- 屏幕边缘的四个按钮
   const css = document.createElement('style');
   css.textContent = `
-    #touch-ui { position: fixed; inset: 0; pointer-events: none; z-index: 5; display: none; }
+    #touch-ui { position: absolute; inset: 0; pointer-events: none; z-index: 5; display: none; }
     #touch-ui.on { display: block; }
     .tbtn { position: absolute; border-radius: 50%; pointer-events: auto; touch-action: none;
       display: flex; align-items: center; justify-content: center; box-sizing: border-box;
-      background: rgba(20,14,30,0.42); border: 0.6vh solid rgba(242,184,214,0.75);
-      color: #fbe8f3; font: 700 6vh ${FONT}; opacity: 0.72; user-select: none; -webkit-user-select: none; }
+      background: rgba(20,14,30,0.42); border: calc(var(--u) * 0.6) solid rgba(242,184,214,0.75);
+      color: #fbe8f3; font: 700 calc(var(--u) * 6) ${FONT}; opacity: 0.72; user-select: none; -webkit-user-select: none; }
     .tbtn.down { background: rgba(242,184,214,0.5); border-color: #ffe3f1; opacity: 0.95; transform: scale(0.94); }
-    .tbtn small { font-size: 4.6vh; }
-    .tbtn .ring { position: absolute; inset: -1.8vh; border-radius: 50%; pointer-events: none;
-      -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 1.2vh), #000 calc(100% - 1.1vh));
-              mask: radial-gradient(farthest-side, transparent calc(100% - 1.2vh), #000 calc(100% - 1.1vh)); }
-    #tb-UP   { width: 22vh; height: 22vh; left: max(2.5vh, env(safe-area-inset-left)); bottom: 30vh; }
-    #tb-DOWN { width: 22vh; height: 22vh; left: max(2.5vh, env(safe-area-inset-left)); bottom: 4vh; }
-    #tb-JUMP { width: 31vh; height: 31vh; right: max(2.5vh, env(safe-area-inset-right)); bottom: 13vh; }
-    #tb-DASH { width: 20vh; height: 20vh; right: calc(max(2.5vh, env(safe-area-inset-right)) + 30vh); bottom: 3vh; }`;
+    .tbtn small { font-size: calc(var(--u) * 4.6); }
+    .tbtn .ring { position: absolute; inset: calc(var(--u) * -1.8); border-radius: 50%; pointer-events: none;
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - calc(var(--u) * 1.2)), #000 calc(100% - calc(var(--u) * 1.1)));
+              mask: radial-gradient(farthest-side, transparent calc(100% - calc(var(--u) * 1.2)), #000 calc(100% - calc(var(--u) * 1.1))); }
+    #tb-UP   { width: calc(var(--u) * 21); height: calc(var(--u) * 21); left: max(calc(var(--u) * 3), env(safe-area-inset-left)); bottom: calc(var(--u) * 33); }
+    #tb-DOWN { width: calc(var(--u) * 21); height: calc(var(--u) * 21); left: max(calc(var(--u) * 3), env(safe-area-inset-left)); bottom: calc(var(--u) * 5); }
+    #tb-JUMP { width: calc(var(--u) * 28); height: calc(var(--u) * 28); right: max(calc(var(--u) * 3), env(safe-area-inset-right)); bottom: calc(var(--u) * 5); }
+    #tb-DASH { width: calc(var(--u) * 19); height: calc(var(--u) * 19); right: calc(max(calc(var(--u) * 3), env(safe-area-inset-right)) + calc(var(--u) * 4.5)); bottom: calc(var(--u) * 41); }`;
   document.head.appendChild(css);
   const ui = document.createElement('div'); ui.id = 'touch-ui';
   const btns = {};
@@ -58,7 +55,7 @@
     el.addEventListener('contextmenu', e => e.preventDefault());
     btns[k] = el; ui.appendChild(el);
   }
-  document.body.appendChild(ui);
+  (document.getElementById('stage') || document.body).appendChild(ui);
   let lastRing = '';
   function syncUI() {
     ui.classList.toggle('on', playing());

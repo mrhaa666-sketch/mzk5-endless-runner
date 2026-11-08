@@ -7,16 +7,54 @@
 <style>
   html, body { margin: 0; height: 100%; background: #0b0910; overflow: hidden; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
   body { display: flex; align-items: center; justify-content: center; }
+  /* 舞台永远是横屏：手机竖着拿时整体旋转 90 度（按钮一起转），横着拿时保持原样 */
+  :root { --L: 100vw; --S: 100vh; --u: 1vh; }
+  #stage { position: fixed; left: 50%; top: 50%; width: var(--L); height: var(--S); transform: translate(-50%, -50%);
+    display: flex; align-items: center; justify-content: center; }
+  #stage.rot { transform: translate(-50%, -50%) rotate(90deg); }
   canvas {
     display: block;
-    width: min(100vw, calc(100vh * 16 / 9));
-    height: min(100vh, calc(100vw * 9 / 16));
+    width: min(var(--L), calc(var(--S) * 16 / 9));
+    height: min(var(--S), calc(var(--L) * 9 / 16));
     background: #000;
   }
 </style>
 </head>
 <body>
-<canvas id="game" width="1920" height="1080"></canvas>
+<div id="stage"><canvas id="game" width="1920" height="1080"></canvas></div>
+<script>
+// 横屏布局 + 把手指位置换算成画布坐标（旋转时也对得上）
+(() => {
+  const stage = document.getElementById('stage'), cv = document.getElementById('game');
+  const touchy = !!window.FORCE_TOUCH || /[?&]touch/.test(location.search) || (navigator.maxTouchPoints > 0 && matchMedia('(pointer: coarse)').matches);
+  function fit() {
+    const w = innerWidth, h = innerHeight, rot = touchy && h > w;
+    const L = rot ? h : w, S = rot ? w : h, st = document.documentElement.style;
+    st.setProperty('--L', L + 'px'); st.setProperty('--S', S + 'px'); st.setProperty('--u', S / 100 + 'px');
+    stage.classList.toggle('rot', rot);
+    window.__rotated = rot;
+  }
+  fit();
+  addEventListener('resize', fit);
+  addEventListener('orientationchange', () => setTimeout(fit, 250));
+  window.toCanvasXY = e => {
+    const r = cv.getBoundingClientRect();
+    if (window.__rotated) return { x: (e.clientY - r.top) * cv.width / r.height, y: (r.right - e.clientX) * cv.height / r.width };
+    return { x: (e.clientX - r.left) * cv.width / r.width, y: (e.clientY - r.top) * cv.height / r.height };
+  };
+  // 手机浏览器：第一次点屏幕时尽量进入全屏并锁定横屏（安卓 Chrome 支持；iPhone 不支持，就保持旋转显示）
+  if (touchy && !window.FORCE_TOUCH) {
+    const once = () => {
+      removeEventListener('pointerdown', once, true);
+      try {
+        const el = document.documentElement, rf = el.requestFullscreen || el.webkitRequestFullscreen;
+        if (rf) Promise.resolve(rf.call(el)).then(() => screen.orientation && screen.orientation.lock && screen.orientation.lock('landscape')).catch(() => {});
+      } catch (_) {}
+    };
+    addEventListener('pointerdown', once, true);
+  }
+})();
+</script>
 <script src="story.js"></script>
 <script src="levels.js"></script>
 <script src="horror.js"></script>
